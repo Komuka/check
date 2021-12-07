@@ -1,0 +1,139 @@
+body{
+  font-family: Inter;
+  background-color: black;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 25px;
+}
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.veska{
+  z-index: 0;
+  display:block;
+  margin:auto;
+  width: 95%;
+  height: 95%;
+}
+.container1{
+position: relative;
+top: 300px;
+z-index: 2;
+}
+.but1{
+  z-index: -1;
+  width: 11%;
+  height: 11%;
+  position: relative;
+  left: 100px;
+  top: -546px;
+}
+.but2{
+  z-index: -1;
+  width: 11%;
+  height: 11%;
+  position: relative;
+  left: 570px;
+  top: -1040px;
+}
+.stakan1{
+  z-index: -1;
+  width: 11%;
+  height: 11%;
+  position: relative;
+  left: 800px;
+  top: -1340px;
+}
+.but3{
+  z-index: -1;
+  width: 11%;
+  height: 11%;
+  position: relative;
+  left: 1010px;
+  top: -1840px;
+}
+.bir1{
+  width: 150%;
+  height: 150%;
+  z-index: 3;
+  position: absolute;
+  top: 70px;
+  left: -15px;
+  animation: bir1 3s ease-in-out infinite;
+  animation-play-state: running;
+  animation-delay: 0.5;
+}
+@keyframes bir1 {
+  0% {transform: rotate(-10deg) translateX(30px);}
+  2% {transform: rotate(-10deg)translateX(30px);;}
+  50% {transform: rotate(8deg)translateX(-30px);;}
+  100% {transform: rotate(-10deg) translateX(30px);;}
+}
+div.bir1:hover{
+  animation-play-state: paused;
+}
+h1{
+  font-weight:800;
+  font-size: 250%;
+}
+.nazv{
+  top: 240px;
+  left: 44px;
+  position: absolute;
+  z-index: 1;
+}
+p{
+  font-weight:800;
+  font-size: 130%;
+}
+.podpis{
+  top: 440px;
+  left: 26px;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  line-height: 220%;
+}
+.bir2{
+  width: 40%;
+  height: 40%;
+  z-index: 1;
+  position: absolute;
+  top: -415px;
+  left: 388px;
+  animation: bir2 3s ease-in-out infinite;
+  animation-play-state: running;
+  animation-delay: 1.7s;
+}
+@keyframes bir2 {
+  0% {transform: rotate(-13deg) translateX(70px);}
+    2% {transform: rotate(-13deg) translateX(70px);;}
+    50% {transform: rotate(11deg) translateX(-70px);;}
+    100% {transform: rotate(-13deg) translateX(70px);;}
+  }
+div.bir2:hover{
+  animation-play-state: paused;
+}
+.nazv2{
+  top: 547px;
+  left: 172px;
+  position: absolute;
+  z-index: 1;
+  font-size: 90%;
+}
+.podpis2{
+  top: 600px;
+  left: 278px;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  line-height: 220%;
+}
